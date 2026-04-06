@@ -1,0 +1,7 @@
+/* Minimal global styles to satisfy build */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+body { background: #fff; color: #111; }

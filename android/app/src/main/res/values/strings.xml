@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">PT TAK</string>
+    <string name="title_activity_main">PT TAK</string>
+    <string name="package_name">pt.tak.fitness</string>
+    <string name="custom_url_scheme">pt.tak.fitness</string>
+</resources>

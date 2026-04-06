@@ -1,0 +1,45 @@
+{
+  "name": "pt-tak---elite-training-platform",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "mobile:build": "npm run build && npx cap copy",
+    "mobile:sync": "npm run build && npx cap copy && npx cap sync",
+    "ios:build": "npm run mobile:build && npx cap open ios",
+    "android:build": "npm run mobile:build && npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.1.0",
+    "@capacitor/camera": "^8.0.1",
+    "@capacitor/cli": "^8.1.0",
+    "@capacitor/core": "^8.1.0",
+    "@capacitor/device": "^8.0.1",
+    "@capacitor/geolocation": "^8.1.0",
+    "@capacitor/ios": "^8.1.0",
+    "@google/genai": "^1.40.0",
+    "@react-google-maps/api": "^2.20.8",
+    "@types/socket.io-client": "^1.4.36",
+    "lucide-react": "^0.563.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "recharts": "^3.7.0",
+    "socket.io-client": "^4.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  },
+  "description": "<div align=\"center\"> <img width=\"1200\" height=\"475\" alt=\"GHBanner\" src=\"https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6\" /> </div>",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
